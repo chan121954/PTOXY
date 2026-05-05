@@ -1,0 +1,11 @@
+proxies:
+  - {name: AA新加坡1 IPLC 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23713, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: s2.hdslb.com, skip-cert-verify: true, udp: true}
+  - {name: AA新加坡2 IPLC 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23714, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: s3.hdslb.com, skip-cert-verify: true, udp: true}
+  - {name: AA香港1 IPLC 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23712, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: app.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: AA香港2 IPLC 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23725, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: t.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: AA台湾2 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23715, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: show.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: AA台湾3 支持NF, type: anytls, server: y2.wowodekuku.com, port: 23747, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: vc.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: AA日本1 IPLC, type: anytls, server: y2.wowodekuku.com, port: 23733, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: live.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: AA日本2 IPLC, type: anytls, server: y2.wowodekuku.com, port: 23721, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: search.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: A美国1, type: anytls, server: d11.wowodekuku.com, port: 26022, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: static.hdslb.com, skip-cert-verify: true, udp: true}
+  - {name: A美国2, type: anytls, server: d11.wowodekuku.com, port: 26023, password: 854b6ec2-e9b0-3e5f-abfc-e9585dab5387, tls: true, servername: activity.hdslb.com, skip-cert-verify: true, udp: true}
