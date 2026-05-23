@@ -59,6 +59,7 @@ proxy-groups:
       - 🇯🇵 AA6日本2 IPLC
       - 🇺🇸 AA5美国1 IPLC
       - 🇺🇸 AA5美国2 IPLC
+      - 🇹🇼 AA8台湾1 支持NF
       - 🇹🇼 AA8台湾2 支持NF
       - 🇹🇼 AA8台湾3 支持NF
 
@@ -101,6 +102,7 @@ proxy-groups:
   - name: 🇹🇼 台湾节点
     type: select
     proxies:
+      - 🇹🇼 AA8台湾1 支持NF
       - 🇹🇼 AA8台湾2 支持NF
       - 🇹🇼 AA8台湾3 支持NF
 
