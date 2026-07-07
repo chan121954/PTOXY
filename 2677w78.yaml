@@ -1,0 +1,185 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: '192.168.6.1:9090'
+secret: ''
+proxies:
+- { name: '🇸🇬 AA1新加坡 IPLC 支持NF', type: anytls, server: b.iqiymysql.com, port: 23724, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: vip.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇸🇬 AA3新加坡 IPLC 支持NF', type: anytls, server: b.iqiymysql.com, port: 23716, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: www.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇸🇬 AA4新加坡IPLC 支持NF', type: anytls, server: b.iqiymysql.com, port: 23706, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: search.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇺🇸 AA5美国1 IPLC', type: anytls, server: b.iqiymysql.com, port: 23717, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: space.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇺🇸 AA5美国2 IPLC', type: anytls, server: b.iqiymysql.com, port: 23728, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: activity.hdslb.com, skip-cert-verify: true }
+
+- { name: '🇯🇵 AA6日本1 IPLC', type: anytls, server: b.iqiymysql.com, port: 23733, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: pay.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇯🇵 AA6日本2 IPLC', type: anytls, server: b.iqiymysql.com, port: 23721, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: big.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇹🇼 AA8台湾2 支持NF', type: anytls, server: b.iqiymysql.com, port: 23748, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: biliapi.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇹🇼 AA8台湾3 支持NF', type: anytls, server: b.iqiymysql.com, port: 23715, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: s4.hdslb.com, skip-cert-verify: true }
+
+- { name: '🇭🇰 AA香港1 IPLC 支持NF', type: anytls, server: b.iqiymysql.com, port: 23712, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: live.bilibili.com, skip-cert-verify: true }
+
+- { name: '🇭🇰 AA香港2 IPLC 支持NF', type: anytls, server: b.iqiymysql.com, port: 23725, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: api.live.bilibili.com, skip-cert-verify: true }
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇹🇼 台湾节点
+      - DIRECT
+
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 AA1新加坡 IPLC 支持NF
+      - 🇸🇬 AA3新加坡 IPLC 支持NF
+      - 🇸🇬 AA4新加坡IPLC 支持NF
+      - 🇭🇰 AA香港1 IPLC 支持NF
+      - 🇭🇰 AA香港2 IPLC 支持NF
+      - 🇯🇵 AA6日本1 IPLC
+      - 🇯🇵 AA6日本2 IPLC
+      - 🇺🇸 AA5美国1 IPLC
+      - 🇺🇸 AA5美国2 IPLC
+      - 🇹🇼 AA8台湾2 支持NF
+      - 🇹🇼 AA8台湾3 支持NF
+
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇸🇬 AA1新加坡 IPLC 支持NF
+      - 🇭🇰 AA香港1 IPLC 支持NF
+      - 🇯🇵 AA6日本1 IPLC
+      - 🇺🇸 AA5美国1 IPLC
+      - 🇹🇼 AA8台湾2 支持NF
+
+  - name: 🇸🇬 新加坡节点
+    type: select
+    proxies:
+      - 🇸🇬 AA1新加坡 IPLC 支持NF
+      - 🇸🇬 AA3新加坡 IPLC 支持NF
+      - 🇸🇬 AA4新加坡IPLC 支持NF
+
+  - name: 🇭🇰 香港节点
+    type: select
+    proxies:
+      - 🇭🇰 AA香港1 IPLC 支持NF
+      - 🇭🇰 AA香港2 IPLC 支持NF
+
+  - name: 🇯🇵 日本节点
+    type: select
+    proxies:
+      - 🇯🇵 AA6日本1 IPLC
+      - 🇯🇵 AA6日本2 IPLC
+
+  - name: 🇺🇸 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 AA5美国1 IPLC
+      - 🇺🇸 AA5美国2 IPLC
+
+  - name: 🇹🇼 台湾节点
+    type: select
+    proxies:
+      - 🇹🇼 AA8台湾2 支持NF
+      - 🇹🇼 AA8台湾3 支持NF
+
+  - name: 💬 AI平台
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - ♻️ 自动选择
+
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+
+  - name: 🎬 Netflix
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇹🇼 台湾节点
+
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+
+  - name: 🎮 游戏服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+
+  - name: 🌍 国外网站
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚀 节点选择
+
+  - name: 🎯 国内直连
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+
+rules:
+  - DOMAIN-SUFFIX,openai.com,💬 AI平台
+  - DOMAIN-SUFFIX,chatgpt.com,💬 AI平台
+  - DOMAIN-SUFFIX,oaistatic.com,💬 AI平台
+  - DOMAIN-SUFFIX,auth0.com,💬 AI平台
+
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+
+  - DOMAIN-SUFFIX,netflix.com,🎬 Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
+  - DOMAIN-SUFFIX,nflximg.net,🎬 Netflix
+
+  - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+  - DOMAIN-SUFFIX,t.me,📲 Telegram
+  - IP-CIDR,91.108.4.0/22,📲 Telegram,no-resolve
+  - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
+
+  - DOMAIN-KEYWORD,steam,🎮 游戏服务
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏服务
+
+  - GEOIP,CN,🎯 国内直连
+  - MATCH,🐟 漏网之鱼
