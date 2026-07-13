@@ -7,27 +7,27 @@ log-level: silent
 external-controller: '192.168.6.1:9090'
 secret: ''
 proxies:
-- { name: '🇸🇬 AA1新加坡 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23724, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: vip.bilibili.com, skip-cert-verify: true }
+- { name: '🇸🇬 AA1新加坡 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23724, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇸🇬 AA3新加坡 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23716, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: www.bilibili.com, skip-cert-verify: true }
+- { name: '🇸🇬 AA3新加坡 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23716, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇸🇬 AA4新加坡IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23706, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: search.bilibili.com, skip-cert-verify: true }
+- { name: '🇸🇬 AA4新加坡IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23706, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇺🇸 AA5美国1 IPLC', type: anytls, server: apple.baidumysql.com, port: 23717, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: space.bilibili.com, skip-cert-verify: true }
+- { name: '🇺🇸 AA5美国1 IPLC', type: anytls, server: apple.baidumysql.com, port: 23717, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇺🇸 AA5美国2 IPLC', type: anytls, server: apple.baidumysql.com, port: 23728, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: activity.hdslb.com, skip-cert-verify: true }
+- { name: '🇺🇸 AA5美国2 IPLC', type: anytls, server: apple.baidumysql.com, port: 23728, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇯🇵 AA6日本1 IPLC', type: anytls, server: apple.baidumysql.com, port: 23733, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: pay.bilibili.com, skip-cert-verify: true }
+- { name: '🇯🇵 AA6日本1 IPLC', type: anytls, server: apple.baidumysql.com, port: 23733, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇯🇵 AA6日本2 IPLC', type: anytls, server: apple.baidumysql.com, port: 23721, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: big.bilibili.com, skip-cert-verify: true }
+- { name: '🇯🇵 AA6日本2 IPLC', type: anytls, server: apple.baidumysql.com, port: 23721, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇹🇼 AA8台湾2 支持NF', type: anytls, server: apple.baidumysql.com, port: 23748, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: biliapi.bilibili.com, skip-cert-verify: true }
+- { name: '🇹🇼 AA8台湾2 支持NF', type: anytls, server: apple.baidumysql.com, port: 23748, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇹🇼 AA8台湾3 支持NF', type: anytls, server: apple.baidumysql.com, port: 23715, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: s4.hdslb.com, skip-cert-verify: true }
+- { name: '🇹🇼 AA8台湾3 支持NF', type: anytls, server: apple.baidumysql.com, port: 23715, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇭🇰 AA香港1 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23712, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: live.bilibili.com, skip-cert-verify: true }
+- { name: '🇭🇰 AA香港1 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23712, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
-- { name: '🇭🇰 AA香港2 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23725, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: api.live.bilibili.com, skip-cert-verify: true }
+- { name: '🇭🇰 AA香港2 IPLC 支持NF', type: anytls, server: apple.baidumysql.com, port: 23725, password: 68ef0aff-c3e6-3cd4-8e3d-1cd8fd42f302, client-fingerprint: chrome, udp: true, alpn: [h2, http/1.1], sni: apple.baidumysql.com, skip-cert-verify: true }
 
 proxy-groups:
   - name: 🚀 节点选择
