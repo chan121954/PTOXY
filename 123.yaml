@@ -1,3 +1,8 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+
 proxies:
   - name: "🇸🇬 AA3新加坡 IPLC 支持NF"
     type: anytls
@@ -6,10 +11,10 @@ proxies:
     password: "a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed"
     sni: "27.44.141.99"
     skip-cert-verify: true
+    udp: true
     alpn:
       - h2
       - http/1.1
-    udp: true
 
   - name: "🇸🇬 AA4新加坡IPLC 支持NF"
     type: anytls
@@ -18,7 +23,27 @@ proxies:
     password: "a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed"
     sni: "27.44.141.99"
     skip-cert-verify: true
+    udp: true
     alpn:
       - h2
       - http/1.1
-    udp: true
+
+proxy-groups:
+  - name: "节点选择"
+    type: select
+    proxies:
+      - "自动选择"
+      - "🇸🇬 AA3新加坡 IPLC 支持NF"
+      - "🇸🇬 AA4新加坡IPLC 支持NF"
+      - DIRECT
+
+  - name: "自动选择"
+    type: url-test
+    proxies:
+      - "🇸🇬 AA3新加坡 IPLC 支持NF"
+      - "🇸🇬 AA4新加坡IPLC 支持NF"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+rules:
+  - MATCH,节点选择
