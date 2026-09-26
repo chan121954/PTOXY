@@ -72,7 +72,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇯🇵 AA6日本1 IPLC'
+  - name: '🇯🇵 AA6日本1 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23733
@@ -98,7 +98,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇹🇼 AA8台湾1'
+  - name: '🇹🇼 AA8台湾1'
     type: anytls
     server: bb.0dy8.com
     port: 23748
@@ -124,7 +124,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇭🇰 AA香港1 IPLC 支持NF'
+  - name: '🇭🇰 AA香港1 IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
     port: 23712
