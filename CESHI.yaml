@@ -46,7 +46,7 @@ proxies:
       - h2
       - http/1.1
       
-  - name: '🇺🇲 AA5美国1 IPLC'
+  - name: '🇺🇸 AA5美国1 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23717
@@ -59,7 +59,7 @@ proxies:
       - h2
       - http/1.1
       
-  - name: '🇺🇲 AA5美国2 IPLC'
+  - name: '🇺🇸 AA5美国2 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23728
@@ -72,7 +72,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇯🇵 AA6日本1 IPLC'
+  - name: '🇯🇵 AA6日本1 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23733
@@ -98,7 +98,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇹🇼 AA8台湾1'
+  - name: '🇹🇼 AA8台湾1'
     type: anytls
     server: bb.0dy8.com
     port: 23748
@@ -124,7 +124,7 @@ proxies:
       - h2
       - http/1.1
       
-   - name: '🇭🇰 AA香港1 IPLC 支持NF'
+  - name: '🇭🇰 AA香港1 IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
     port: 23712
@@ -159,8 +159,8 @@ proxy-groups:
       - '🇸🇬 AA1新加坡 IPLC 支持NF'
       - '🇸🇬 AA3新加坡 IPLC 支持NF'
       - '🇸🇬 AA4新加坡IPLC 支持NF'
-      - '🇺🇲 AA5美国1 IPLC'
-      - '🇺🇲 AA5美国2 IPLC'
+      - '🇺🇸 AA5美国1 IPLC'
+      - '🇺🇸 AA5美国2 IPLC'
       - '🇯🇵 AA6日本1 IPLC'
       - '🇯🇵 AA6日本2 IPLC'
       - '🇹🇼 AA8台湾1'
@@ -173,8 +173,8 @@ proxy-groups:
       - '🇸🇬 AA1新加坡 IPLC 支持NF'
       - '🇸🇬 AA3新加坡 IPLC 支持NF'
       - '🇸🇬 AA4新加坡IPLC 支持NF'
-      - '🇺🇲 AA5美国1 IPLC'
-      - '🇺🇲 AA5美国2 IPLC'
+      - '🇺🇸 AA5美国1 IPLC'
+      - '🇺🇸 AA5美国2 IPLC'
       - '🇯🇵 AA6日本1 IPLC'
       - '🇯🇵 AA6日本2 IPLC'
       - '🇹🇼 AA8台湾1'
@@ -191,8 +191,8 @@ proxy-groups:
       - '🇸🇬 AA1新加坡 IPLC 支持NF'
       - '🇸🇬 AA3新加坡 IPLC 支持NF'
       - '🇸🇬 AA4新加坡IPLC 支持NF'
-      - '🇺🇲 AA5美国1 IPLC'
-      - '🇺🇲 AA5美国2 IPLC'
+      - '🇺🇸 AA5美国1 IPLC'
+      - '🇺🇸 AA5美国2 IPLC'
       - '🇯🇵 AA6日本1 IPLC'
       - '🇯🇵 AA6日本2 IPLC'
       - '🇹🇼 AA8台湾1'
