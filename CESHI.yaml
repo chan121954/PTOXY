@@ -6,6 +6,7 @@ mode: rule
 log-level: silent
 external-controller: '127.0.0.1:9090'
 secret: ''
+
 proxies:
   - name: '🇸🇬 AA1新加坡 IPLC 支持NF '
     type: anytls
@@ -19,7 +20,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇸🇬 AA3新加坡 IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
@@ -32,7 +33,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇸🇬 AA4新加坡IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
@@ -45,8 +46,8 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
-  - name: '🇺🇸 AA5美国1 IPLC'
+
+  - name: '🇺🇲 AA5美国1 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23717
@@ -58,8 +59,8 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
-  - name: '🇺🇸 AA5美国2 IPLC'
+
+  - name: '🇺🇲 AA5美国2 IPLC'
     type: anytls
     server: bb.0dy8.com
     port: 23728
@@ -71,7 +72,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇯🇵 AA6日本1 IPLC'
     type: anytls
     server: bb.0dy8.com
@@ -84,7 +85,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇯🇵 AA6日本2 IPLC'
     type: anytls
     server: bb.0dy8.com
@@ -97,7 +98,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇹🇼 AA8台湾1'
     type: anytls
     server: bb.0dy8.com
@@ -110,7 +111,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: "🇹🇼 AA8台湾2 支持NF"
     type: anytls
     server: bb.0dy8.com
@@ -123,7 +124,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇭🇰 AA香港1 IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
@@ -136,7 +137,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-      
+
   - name: '🇭🇰 AA香港2 IPLC 支持NF'
     type: anytls
     server: bb.0dy8.com
@@ -148,7 +149,6 @@ proxies:
     udp: true
     alpn:
       - h2
-      - http/1.1
 
 proxy-groups:
   - name: Proxy
