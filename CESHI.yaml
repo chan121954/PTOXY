@@ -1,24 +1,2 @@
-proxies:
-  - name: "🇸🇬 AA3新加坡 IPLC 支持NF"
-    type: anytls
-    server: 27.44.141.99
-    port: 23716
-    password: "a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed"
-    sni: "27.44.141.99"
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-    udp: true
-
-  - name: "🇸🇬 AA4新加坡IPLC 支持NF"
-    type: anytls
-    server: 27.44.141.99
-    port: 23706
-    password: "a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed"
-    sni: "27.44.141.99"
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-    udp: true
+anytls://a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed@27.44.141.99:23716?peer=27.44.141.99&insecure=1&alpn=h2,http/1.1&udp=1#%F0%9F%87%B8%F0%9F%87%AC%20AA3%E6%96%B0%E5%8A%A0%E5%9D%A1%20IPLC%20%E6%94%AF%E6%8C%81NF
+anytls://a3267916-c7ae-34e6-8a22-6cf6e2c6a1ed@27.44.141.99:23706?peer=27.44.141.99&insecure=1&alpn=h2,http/1.1&udp=1#%F0%9F%87%B8%F0%9F%87%AC%20AA4%E6%96%B0%E5%8A%A0%E5%9D%A1IPLC%20%E6%94%AF%E6%8C%81NF
