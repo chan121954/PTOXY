@@ -114,7 +114,7 @@ dns:
 profile:
   store-selected: true
 proxies:
-- name: 🇭🇰 HK | 香港11 | 直连 VIP
+- name: 🇭🇰 HK | 香港11 | 直连 
   type: vless
   server: direct-hk-03.xlww.cc
   port: 40000
@@ -128,7 +128,7 @@ proxies:
   reality-opts:
     public-key: HprTUQSAIga-95pJXuTL_VA94MNxtdArPFJ1s4IGzzM
     short-id: 5c914f22
-- name: 🇭🇰 HK | 香港13 | 直连 VIP
+- name: 🇭🇰 HK | 香港13 | 直连 
   type: anytls
   server: direct-hk-05.xlww.cc
   port: 40010
@@ -143,7 +143,7 @@ proxies:
   idle-session-timeout: 30
   min-idle-session: 0
   tfo: false
-- name: 🇭🇰 HK | 香港17 | 直连 SVIP
+- name: 🇭🇰 HK | 香港17 | 直连 
   type: vless
   server: hk-direct-s4.xlww.cc
   port: 40014
@@ -157,7 +157,7 @@ proxies:
   reality-opts:
     public-key: re_319Fe3Wv6XQoc8HJOJNuwTBX_xBTpp3CXwK7RqGs
     short-id: 93ec5c3e
-- name: 🇨🇳 TW | 台湾04 | 直连 VIP
+- name: 🇨🇳 TW | 台湾04 | 直连 
   type: vless
   server: inets-direct-tw-01.xlww.cc
   port: 38041
@@ -171,7 +171,7 @@ proxies:
   reality-opts:
     public-key: LN0rMlJDjuRDm5gprVhMxKwVlKeTj5o0wB49hCdBRiw
     short-id: ac196769
-- name: 🇨🇳 TW | 台湾05 | 直连 VIP
+- name: 🇨🇳 TW | 台湾05 | 直连 
   type: vless
   server: direct-tw-02.xlww.cc
   port: 38041
@@ -185,7 +185,7 @@ proxies:
   reality-opts:
     public-key: 3i_wPm_vAQx5YIPXyMKQZBtRmhRuZ3njzOXMMJ58bWk
     short-id: c68f121e
-- name: 🇯🇵 JP | 日本04 | 直连 VIP
+- name: 🇯🇵 JP | 日本04 | 直连 
   type: vless
   server: direct-jp-01.xlww.cc
   port: 36001
@@ -199,7 +199,7 @@ proxies:
   reality-opts:
     public-key: cZY7FmIyJkl2kLMH0mRukA1nUH6uupH_aPHeiUj8H1I
     short-id: df09636e
-- name: 🇯🇵 JP | 日本05 | 直连 VIP
+- name: 🇯🇵 JP | 日本05 | 直连 
   type: vless
   server: direct-jp-02.xlww.cc
   port: 36003
@@ -213,7 +213,7 @@ proxies:
   reality-opts:
     public-key: Zjtf1FtfTaPh7gVB3oke7EFbyO4Lj6u294soE3r3HQ4
     short-id: 078a5517
-- name: 🇺🇸 US | 美国05 | 直连 VIP
+- name: 🇺🇸 US | 美国05 | 直连 
   type: vless
   server: direct-us-01.xlww.cc
   port: 35060
@@ -227,7 +227,7 @@ proxies:
   reality-opts:
     public-key: nVFSTIhb2x06h-YO9HeDhxdn0yiqXUE6E4ECJbd1-Tc
     short-id: 8de3cd81
-- name: 🇺🇸 US | 美国06 | 直连 VIP
+- name: 🇺🇸 US | 美国06 | 直连 
   type: vless
   server: direct-us-02.xlww.cc
   port: 35062
@@ -241,7 +241,7 @@ proxies:
   reality-opts:
     public-key: n-GE3OVpFDq2MxU4mnj9Nvr188299SAKpZywYVnf8BQ
     short-id: 50b0c4ad
-- name: 🇸🇬 SG | 新加坡04 | 直连 VIP
+- name: 🇸🇬 SG | 新加坡04 | 直连 
   type: vless
   server: direct-sg-01.xlww.cc
   port: 37001
@@ -255,7 +255,7 @@ proxies:
   reality-opts:
     public-key: 2GhrhJnIpiB2OsNEdCykwZbslyNC7-k_ZJ_fJVVwy0U
     short-id: b4ee89c8
-- name: 🇸🇬 SG | 新加坡07 | 直连 SVIP
+- name: 🇸🇬 SG | 新加坡07 | 直连 
   type: vless
   server: direct-sg-s1.xlww.cc
   port: 37001
@@ -284,160 +284,160 @@ proxy-groups:
   - Disney+
   - Gemini
   - 爱奇艺海外
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: ♻️自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: TikTok
   icon: https://raw.techsu.cloud/icons/tiktok.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: ChatGPT
   icon: https://raw.techsu.cloud/icons/chatgpt.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: Netflix
   icon: https://raw.techsu.cloud/icons/netflix.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
 - name: Netflix自制剧
   icon: https://raw.techsu.cloud/icons/netflix_origin.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: bilibili港澳台
   icon: https://raw.techsu.cloud/icons/bilibili_gang_ao_tai.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
 - name: TVB
   icon: https://raw.techsu.cloud/icons/tvb.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: HULU
   icon: https://raw.techsu.cloud/icons/hulu.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: Disney+
   icon: https://raw.techsu.cloud/icons/disney_plus.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
 - name: Gemini
   icon: https://raw.techsu.cloud/icons/gemini.png
   type: select
   proxies:
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 - name: 爱奇艺海外
   icon: https://raw.techsu.cloud/icons/iqiyi_oversea.png
   type: select
   proxies:
-  - 🇭🇰 HK | 香港11 | 直连 VIP
-  - 🇭🇰 HK | 香港13 | 直连 VIP
-  - 🇭🇰 HK | 香港17 | 直连 SVIP
-  - 🇨🇳 TW | 台湾04 | 直连 VIP
-  - 🇨🇳 TW | 台湾05 | 直连 VIP
-  - 🇯🇵 JP | 日本04 | 直连 VIP
-  - 🇯🇵 JP | 日本05 | 直连 VIP
-  - 🇺🇸 US | 美国05 | 直连 VIP
-  - 🇺🇸 US | 美国06 | 直连 VIP
-  - 🇸🇬 SG | 新加坡04 | 直连 VIP
-  - 🇸🇬 SG | 新加坡07 | 直连 SVIP
+  - 🇭🇰 HK | 香港11 | 直连 
+  - 🇭🇰 HK | 香港13 | 直连 
+  - 🇭🇰 HK | 香港17 | 直连 
+  - 🇨🇳 TW | 台湾04 | 直连 
+  - 🇨🇳 TW | 台湾05 | 直连 
+  - 🇯🇵 JP | 日本04 | 直连 
+  - 🇯🇵 JP | 日本05 | 直连 
+  - 🇺🇸 US | 美国05 | 直连 
+  - 🇺🇸 US | 美国06 | 直连 
+  - 🇸🇬 SG | 新加坡04 | 直连 
+  - 🇸🇬 SG | 新加坡07 | 直连 
 rules:
 - PROCESS-NAME,Weixin.exe,DIRECT
 - PROCESS-NAME,Binance.exe,🔰 节点选择
