@@ -118,7 +118,7 @@ proxies:
   type: vless
   server: direct-hk-03.xlww.cc
   port: 40000
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -132,7 +132,7 @@ proxies:
   type: anytls
   server: direct-hk-05.xlww.cc
   port: 40010
-  password: c10b6251-fdd5-42da-9867-9c628db7270e
+  password: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   sni: v-delivery.microsoft.com
   client-fingerprint: chrome
@@ -147,7 +147,7 @@ proxies:
   type: vless
   server: hk-direct-s4.xlww.cc
   port: 40014
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -161,7 +161,7 @@ proxies:
   type: vless
   server: inets-direct-tw-01.xlww.cc
   port: 38041
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -175,7 +175,7 @@ proxies:
   type: vless
   server: direct-tw-02.xlww.cc
   port: 38041
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -189,7 +189,7 @@ proxies:
   type: vless
   server: direct-jp-01.xlww.cc
   port: 36001
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -203,7 +203,7 @@ proxies:
   type: vless
   server: direct-jp-02.xlww.cc
   port: 36003
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -217,7 +217,7 @@ proxies:
   type: vless
   server: direct-us-01.xlww.cc
   port: 35060
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -231,7 +231,7 @@ proxies:
   type: vless
   server: direct-us-02.xlww.cc
   port: 35062
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -245,7 +245,7 @@ proxies:
   type: vless
   server: direct-sg-01.xlww.cc
   port: 37001
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
@@ -259,7 +259,7 @@ proxies:
   type: vless
   server: direct-sg-s1.xlww.cc
   port: 37001
-  uuid: c10b6251-fdd5-42da-9867-9c628db7270e
+  uuid: a9f769c4-3a9e-41a5-b86d-cd41f99e2f7e
   udp: true
   tls: true
   skip-cert-verify: false
