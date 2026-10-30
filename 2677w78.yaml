@@ -273,7 +273,7 @@ proxy-groups:
   name: bilibili港澳台
   icon: 'https://raw.techsu.cloud/icons/bilibili_gang_ao_tai.png'
   type: select
-  proxies: ['🇭🇰 HK | 香港11 | 直连 ', '🇭🇰 HK | 香港13 | 直连 ', '🇭🇰 HK | 香港17 | 直连 SVIP', '🇨🇳 TW | 台湾04 | 直连 ', '🇨🇳 TW | 台湾05 | 直连 ']
+  proxies: ['🇭🇰 HK | 香港11 | 直连 ', '🇭🇰 HK | 香港13 | 直连 ', '🇭🇰 HK | 香港17 | 直连 ', '🇨🇳 TW | 台湾04 | 直连 ', '🇨🇳 TW | 台湾05 | 直连 ']
  -
   name: TVB
   icon: 'https://raw.techsu.cloud/icons/tvb.png'
