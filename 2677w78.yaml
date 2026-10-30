@@ -253,7 +253,7 @@ proxy-groups:
   name: TikTok
   icon: 'https://raw.techsu.cloud/icons/tiktok.png'
   type: select
-  proxies: ['🇭🇰 HK | 香港11 | 直连 ', '🇭🇰 HK | 香港13 | 直连 ', '🇭🇰 HK | 香港17 | 直连 ', '🇨🇳 TW | 台湾04 | 直连 ', '🇨🇳 TW | 台湾05 | 直连 ', '🇯🇵 JP | 日本04 | 直连 ', '🇯🇵 JP | 日本05 | 直连 ', '🇺🇸 US | 美国05 | 直连 VIP', '🇺🇸 US | 美国06 | 直连 ', '🇸🇬 SG | 新加坡04 | 直连 ', '🇸🇬 SG | 新加坡07 | 直连 ']
+  proxies: ['🇭🇰 HK | 香港11 | 直连 ', '🇭🇰 HK | 香港13 | 直连 ', '🇭🇰 HK | 香港17 | 直连 ', '🇨🇳 TW | 台湾04 | 直连 ', '🇨🇳 TW | 台湾05 | 直连 ', '🇯🇵 JP | 日本04 | 直连 ', '🇯🇵 JP | 日本05 | 直连 ', '🇺🇸 US | 美国05 | 直连 ', '🇺🇸 US | 美国06 | 直连 ', '🇸🇬 SG | 新加坡04 | 直连 ', '🇸🇬 SG | 新加坡07 | 直连 ']
  -
   name: ChatGPT
   icon: 'https://raw.techsu.cloud/icons/chatgpt.png'
@@ -268,7 +268,7 @@ proxy-groups:
   name: Netflix自制剧
   icon: 'https://raw.techsu.cloud/icons/netflix_origin.png'
   type: select
-  proxies: ['🇭🇰 HK | 香港17 | 直连 SVIP', '🇸🇬 SG | 新加坡07 | 直连 SVIP']
+  proxies: ['🇭🇰 HK | 香港17 | 直连 ', '🇸🇬 SG | 新加坡07 | 直连 ']
  -
   name: bilibili港澳台
   icon: 'https://raw.techsu.cloud/icons/bilibili_gang_ao_tai.png'
